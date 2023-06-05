@@ -11,13 +11,7 @@ namespace Lib13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Методы алгебры");
-            Console.WriteLine("1)Корни квадратного уравнения "  + AlgebraClass.GetSquareRoots(5,-15,5).ToString());
-            Console.WriteLine("2)Корни линейного уравнения "    + AlgebraClass.GetLinearRoots(3, 4).ToString());
-            Console.WriteLine("3)Сумма ряда "    + AlgebraClass.GetRowSummary(new double[] {1,2,3 }).ToString());
-            Console.WriteLine("4)Максимальное из ряда "   + AlgebraClass.GetMaxFromRow(new double[] { 1, 2, 3 }).ToString());
-            Console.WriteLine("5)Среднее значение ряда " + AlgebraClass.GetRowAvg(new double[] { 123, 323, 666, 777 }).ToString());
-            Console.WriteLine("Методы геометрии ");
+            Console.WriteLine("Методы геометрии");
             Console.WriteLine("1)Площадь треугольника "+ GeometryClass.STriangle(4, 5).ToString());
             Console.WriteLine("2)Площадь прямоугольного треугольника " + GeometryClass.SPTriangle(5, 5).ToString());
             Console.WriteLine("3)Площадь прямоугольника " + GeometryClass.Srectangle(5, 5).ToString());
